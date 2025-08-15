@@ -102,9 +102,18 @@ print (challange)
 print (challange.expandtabs(10))
 print (challange.expandtabs(2))
 
-# find(): Returns the index of first letter
+# find(): returns the index of the first occurrence of the letter 
 challange = "thirty days of python"
-print(challange.find('y'))
-print (challange.find('th'))
+print = (challange.find('y'))
+print = (challange.find('th'))
 
-# 
+# format() formats string into nicer output
+first_name = "Wilma"
+last_name = "Auraruna Khalif"
+job = "Unemployed"
+country = "Indonesia" 
+sentence = "I am {} {}. I am a {} . I live in {}.".format(first_name, last_name, job, country)
+print (sentence)
+
+
+
