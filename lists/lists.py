@@ -122,7 +122,6 @@ print(ages.count(24))
 # sort 
 ages = [22, 20, 24 ,18, 19, 26, 24, 25]
 ages.sort()
-print (ages)
-
+print(ages)
 
 
