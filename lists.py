@@ -109,10 +109,20 @@ zero = [0]
 negative_numbers=[-5,-4,-3,-2,-1]
 negative_numbers.extend(positive_numbers)
 negative_numbers.extend(zero)
+negative_numbers.sort()
 print (negative_numbers)
 
+# count how many elements x 
+print ("\ncount:")
+fruits = ["banana", 'orange', 'mango', 'lemon', "cok"]
+print (fruits.count("orange"))
+ages = [22, 20, 24 ,18, 19, 26, 24, 25]
+print(ages.count(24))
 
-
+# sort 
+ages = [22, 20, 24 ,18, 19, 26, 24, 25]
+ages.sort()
+print (ages)
 
 
 
