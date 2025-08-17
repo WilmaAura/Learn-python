@@ -107,4 +107,3 @@ challange = "thirty days of python"
 print(challange.find('y'))
 print (challange.find('th'))
 
-# 
