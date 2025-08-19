@@ -25,4 +25,3 @@ print ("Euclidean:", round(d,2))
 
 
 
-

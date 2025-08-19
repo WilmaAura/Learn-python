@@ -1,4 +1,4 @@
-# How to create a List
+    # How to create a List
 # using list built-in function
 empty_list = list()
 print (len(empty_list))
