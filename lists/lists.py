@@ -124,6 +124,17 @@ ages = [22, 20, 24 ,18, 19, 26, 24, 25]
 ages.sort()
 print(ages)
 
-# 
+fruits = ["banana", 'orange', 'mango', 'lemon', "cok"]
+fruits.sort()
+print (fruits)
 
+
+# reverse
+ages = [22, 20, 24 ,18, 19, 26, 24, 25]
+ages.reverse()
+print(ages)
+
+# how to find the index of the element
+index_22= ages.index(22)
+print(index_22)
 

@@ -61,21 +61,65 @@ it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Am
 print(it_companies[0].upper())
 
     # Convert all items
-uppercased = [it_companies.upper() for company in it_companies]
+uppercased = [company.upper() for company in it_companies]
     # "company" is the loop variable representing each element
     # "in" means: take each element from the list "it_companies" one by one and put into the variable company
 print (uppercased)
 
 # 14. join the it_companies with a stinrg "#;"
-newString = "#;"
+newString = ["#;"]
 joining = it_companies + newString
 print (joining)
 
+# 15. Check if the element on a certain list
+print ("#;" in joining)
 
+# 16. sort the list using sort()
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+it_companies.sort()
+print (it_companies)
 
+# 17. Reverse the list in descending order using reverse ()
+it_companies.reverse()
+print (it_companies)
 
+# 18. Slice out the first 3 companies
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+print ("The first 3 companies:", it_companies[0:3])
 
+# 19. slice out the last 3 companies
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+print ("The first 3 companies:", it_companies[-3:])
 
+# 20. Slice out the middle IT company 
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+print ("The first 3 companies:", it_companies[3:])
+
+# 21. Remove the first IT company from the list
+it_companies.remove("Facebook")
+print(it_companies)
+
+# 22. Remove all IT companies from the list
+it_companies.clear()
+print(it_companies)
+
+# 23. Destroy the IT companies list
+del it_companies
+
+# 24. Join the following list
+front_end = ["HTML" , "CSS", "JS", 'React', 'Redux']
+back_end = ['Node', 'Express', 'MongoDB']
+fullStack= front_end + back_end
+print(fullStack)
+
+# 25 Copy the joined list and assign it to a variable full_stack
+# them imsert Python, SQL after Redux 
+full_stack = fullStack.copy()
+print (full_stack)
+redux_index = full_stack.index("Redux")
+full_stack.insert(redux_index+1, "Python") # insert is only 2 statements
+full_stack.insert(redux_index+2, "SQL")
+print(full_stack) 
 
 
 
