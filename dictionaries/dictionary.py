@@ -71,8 +71,33 @@ dct = {
     'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4', 
 }
 print(dct.items())
+del dct
 
-# 
+# Copy a Dictionary
+dct = {
+    'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4', 
+}
+dct_copy = dct.copy()
+print ("Copied dictionary",dct_copy)
+
+# Getting dictionary Keys as a List
+    # The keys() method gives us all the keys of a dictionary as a list
+dct = {
+    'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4', 
+}
+keys = dct.keys()
+print(keys)
+
+# Getting Dictionary Values as a list
+dct = {
+    'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4', 
+}
+values = dct.values()
+print(values)
+
+
+
+
 
 
 
