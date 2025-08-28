@@ -1,10 +1,12 @@
-season = input("Check season by the months:").lower() # This is how to program read the input is lowercase
-
-if season == "September" or season == "October" or season == "November":
+season = input("Check season by the months:").lower() # This is how to program read the input is lowercas
+if season in ("september", "october", "november"):
     print("The season is Autumn")
-elif season == "December" or season == "January" or season == "February":
+elif season in ("december", "januray", "february"):
     print("The season is Winter")
-elif season == "March" or season == "April" or season == "May":
-    print("The season is Sprint")
+elif season in ("march", "april", "may"):
+    print("The season is Winter")
 else:
-    print("The season is Summer")
+    print("The season is summer")
+ 
+
+
