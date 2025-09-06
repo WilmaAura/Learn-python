@@ -45,3 +45,29 @@ def calculate_slope ():
     else:
         x = None
 print(calculate_slope())
+
+def print_list(lst = []):
+    return lst
+print(print_list([1,2,3,4,5]))
+
+def reverse_list(lst):
+    reversed_arr=[]
+    for i in range(len(lst)-1, -1, -1):
+        reversed_arr.append(lst[i])
+    return reversed_arr
+print(reverse_list([1,2,3,4,5]))
+
+def capitalize_list_items(list):
+    capitalized = []
+    for i in list:
+        capitalized.append(i.capitalize())
+    return capitalized
+print(capitalize_list_items(['naura', 'wilma', 'Budi']))
+
+def add_item(list, item):
+    list.append(item)
+    return list
+food_staf = ['potato', 'tomato', 'mango']
+print(add_item(food_staf, 'apple'))
+
+def sum_of_numbers(number):
