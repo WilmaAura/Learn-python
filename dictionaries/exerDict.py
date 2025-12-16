@@ -7,7 +7,7 @@ cat = {
 student = {
     'first_name' : 'Wilma',
     'last_name' : 'Auraruna Khalif',
-    'sex' : 'male',
+    'sex' : 'Female',
     'marital status': False,
     'country':'Indonesia',
     'city':'Semarang'

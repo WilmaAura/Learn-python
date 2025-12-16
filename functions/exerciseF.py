@@ -69,5 +69,3 @@ def add_item(list, item):
     return list
 food_staf = ['potato', 'tomato', 'mango']
 print(add_item(food_staf, 'apple'))
-
-def sum_of_numbers(number):

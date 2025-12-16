@@ -29,14 +29,3 @@ if 'Node' in skills and 'MongoDB' in skills and 'Python' in skills:
 
 if 'React' in skills and 'Node' in skills and 'MongoDB' in skills:
         print('He is fullstack developer')
-
-
-
-
-
-
-
-
-
-
-

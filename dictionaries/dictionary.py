@@ -21,8 +21,7 @@ print(person['first_name'], person['last_name'])
 print(person['country'])
 print(person['age'])
 print(person['is_married'])
-print(person['Hobbies'][0])
-
+print(person['Hobbies'][0]) 
 # Adding Items to a Dictionary
 dct = {
     'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4', 
