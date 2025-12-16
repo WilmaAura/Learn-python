@@ -3,7 +3,7 @@ def merge_sort(arr):
         return arr
     
     # Divide Process
-    mid = len(arr) / 2
+    mid = len(arr) // 2
     left_half = arr[:mid] # mid - 1
     right_half =arr[mid:] 
 
@@ -11,7 +11,7 @@ def merge_sort(arr):
     left_half=merge_sort(left_half)
     right_half=merge_sort(right_half)
 
-    return (left_half, right_half)
+    return merge(left_half, right_half)
 
 def merge(left, right):
     result = []
@@ -20,7 +20,7 @@ def merge(left, right):
     # Merge two parts in order
     while left_index < len(left) and right_index < len (right):
         if left[left_index] < right[right_index]:
-            result.append(right[right_index])
+            result.append(left[left_index])
             left_index +=1
         else:
             result.append(right[right_index])
@@ -34,4 +34,10 @@ def merge(left, right):
     while right_index < len(right):
         result.append(right[right_index])
         right_index += 1
-        
+    
+    return result
+
+arr = [12, 11, 13, 5, 6, 7]
+print ("Array yang belum diurutkan:", arr)
+sorted_arr = merge_sort(arr)
+print ("Array yang telah diurutkan:", sorted_arr)
