@@ -37,7 +37,8 @@ def merge(left, right):
     
     return result
 
-arr = [12, 11, 13, 5, 6, 7]
+arr = [ 3, 2 ]
+print ("len arr:",len(arr))
 print ("Array yang belum diurutkan:", arr)
 sorted_arr = merge_sort(arr)
 print ("Array yang telah diurutkan:", sorted_arr)
