@@ -14,7 +14,7 @@ def binarySearch(arr, target):
         # If the target on the right
         else:
             left = mid + 1
-    # Jika target tidak ditemukan
+    # Jika target tidak ditemukanwwqwweq         \
     return -1
 
 target = 4

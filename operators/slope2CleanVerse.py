@@ -13,3 +13,4 @@ print ("Slope (m):", round(m,2)) # keep only 2 decimal places
 print ("\n--- The Euclidean distance ---")
 d = math.sqrt((x2-x1)**2 + (y2-y1)**2)
 print ("Euclidean:", d)
+ 

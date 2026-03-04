@@ -46,4 +46,4 @@ else:
             else:
                 print(f"Error Server ({response_face.status_code}):", response_face.text)
         except Exception as e:
-            print("Terjadi kesalahan koneksi:", e)
+            print("Terjadi kesalahan koneksi:", e) 

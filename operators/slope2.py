@@ -1,4 +1,4 @@
-# slope is (m=y2-y1/x2-x1)
+    # slope is (m=y2-y1/x2-x1)
 # find the slope and Euclidean distance 
 # between point (2,2) and point (6,10)
 

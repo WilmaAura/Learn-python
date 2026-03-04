@@ -14,7 +14,7 @@ while gc < ch:
     gc +=1
     guess = int(input('Enter your guess: '))
 
-    if guess == num:
+    if guess == num: 
         print(f'Correct the number is {num}. You guessed it in {gc} attempts.')
         break
     elif gc >= ch and guess != num:
