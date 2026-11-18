@@ -22,4 +22,3 @@ try:
     box_print('ZZ', 3, 3)
 except Exception as err:
     print ('An exception happened: ' + str(err))
-    
